@@ -2,6 +2,7 @@ import java.util.*;
 public class _1617jrc1 {
 	static Scanner in;
 	
+	static Card oppPlay;
 	static Card[] hand;
 	
 	static Card output;
