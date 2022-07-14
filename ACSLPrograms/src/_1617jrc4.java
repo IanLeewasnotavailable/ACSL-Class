@@ -8,13 +8,15 @@ public class _1617jrc4 {
 	static int output;
 		
 	public static void main(String[] args) {
-		init();
-		solve();
-		output();
+		in = new Scanner(System.in);
+		for(int i = 0;i<5;i++) {
+			init();
+			solve();
+			output();	
+		}
 	}
 	
 	public static void init() {
-		in = new Scanner(System.in);
 		
 		String line = in.nextLine();
 		StringTokenizer st = new StringTokenizer(line, ", ");
